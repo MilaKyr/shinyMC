@@ -6,7 +6,7 @@ library(stringi)
 library(RColorBrewer)
 
 
-menu <- read.csv("/Users/mila/Documents/foolingAround/app/menu.csv",stringsAsFactors = F,
+menu <- read.csv("menu.csv",stringsAsFactors = F,
                  encoding="UTF-8")
 Sys.setlocale("LC_ALL", "ES_ES.UTF-8")
 
